@@ -6,7 +6,8 @@ spring:
       server:
         git:
           default-label: config-server
-          uri: https://github.com/andreaastete/metodos-evaluacion-2/tree/config-server/config-server
+          #uri: https://github.com/andreaastete/metodos-evaluacion-2/tree/config-server/config-server
+          uri: https://github.com/andreaastete/metodos-evaluacion-2/config-server/config-server
           search-paths: config-data
   application:
     name: config-service
