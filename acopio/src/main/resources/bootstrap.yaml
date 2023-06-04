@@ -5,7 +5,13 @@ spring:
     config:
       enabled: true
       uri: http://localhost:8081
-
+  datasource:
+    url: jdbc:postgresql://localhost:5432/proveedores_leche
+    username: postgres
+    password: sandia01
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 
   #spring.datasource.url=jdbc:postgresql://localhost:5432/proveedores_leche
