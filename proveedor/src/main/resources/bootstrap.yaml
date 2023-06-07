@@ -1,8 +1,6 @@
-server:
-  port: 8001
 spring:
   application:
-    name: acopio-service
+    name: proveedor-service
   cloud:
     config:
       enabled: true
