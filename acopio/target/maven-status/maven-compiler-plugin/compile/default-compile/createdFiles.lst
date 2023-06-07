@@ -1,0 +1,5 @@
+com\milk\acopio\controller\AcopioController.class
+com\milk\acopio\entity\AcopioEntity.class
+com\milk\acopio\AcopioApplication.class
+com\milk\acopio\Service\AcopioService.class
+com\milk\acopio\repository\AcopioRepository.class

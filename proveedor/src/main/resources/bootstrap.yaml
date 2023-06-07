@@ -1,0 +1,29 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: acopio-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+    compatibility-verifier:
+      enabled: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/proveedores_leche
+    username: postgres
+    password: sandia01
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+#  spring.datasource.url=jdbc:postgresql://localhost:5432/proveedores_leche
+#   spring.datasource.username=postgres
+#   pring.datasource.password=sandia01
+
+# spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true
+# spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
+
+    # Hibernate ddl auto (create, create-drop, validate, update)
+    # spring.jpa.hibernate.ddl-auto= update*//
