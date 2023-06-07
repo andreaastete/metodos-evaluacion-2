@@ -1,8 +1,6 @@
-server:
-  port: 8002
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/proveedores_leche
+    url: http://localhost:8081
     username: postgres
     password: sandia01
   jpa:
