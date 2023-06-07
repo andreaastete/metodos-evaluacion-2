@@ -1,2 +1,16 @@
-server:
-  port: 8002
+spring:
+  application:
+    name: acopio-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+    compatibility-verifier:
+      enabled: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/proveedores_leche
+    username: postgres
+    password: sandia01
+  jpa:
+    hibernate:
+      ddl-auto: update
